@@ -8,11 +8,11 @@
 #include <coap-simple.h>
 
 /* ========== CONFIG ========== */
-const char* WIFI_SSID = "khuong";
-const char* WIFI_PASS = "01645768989";
+const char* WIFI_SSID = "Redmi K40 Pro";
+const char* WIFI_PASS = "88888888";
 
 /* CoAP Server (Receiver) */
-IPAddress coap_server_ip(192, 168, 1, 22);
+IPAddress coap_server_ip(192, 168, 0, 186);
 const int coap_port = 5683;
 
 /* CoAP Resource */
